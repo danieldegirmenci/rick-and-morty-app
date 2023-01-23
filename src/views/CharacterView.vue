@@ -1,16 +1,14 @@
 <template>
- 
-    <CharacterList />
-  
+  <CharacterList />
 </template>
 
 <script>
-import CharacterList from '@/components/CharacterList.vue'
+import CharacterList from "@/components/CharacterList.vue";
 
 export default {
-  name: 'CharacterView',
+  name: "CharacterView",
   components: {
-    CharacterList
-  }
-}
+    CharacterList,
+  },
+};
 </script>

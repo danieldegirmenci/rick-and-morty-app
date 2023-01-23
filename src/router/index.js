@@ -1,24 +1,21 @@
-import { createRouter, createWebHistory } from 'vue-router'
-
+import { createRouter, createWebHistory } from "vue-router";
 
 const routes = [
   {
-    path: '/',
-    name: 'home',
-    component: ()=>import('../views/CharacterView')
+    path: "/",
+    name: "home",
+    component: () => import("../views/CharacterView"),
   },
   {
-    path: '/detail/:characterID',
-    name: 'detail',
-    component:  () =>import('../views/DetailView'),
-    props: true
-
-  }
-]
+    path: "/detail/:characterID",
+    name: "detail",
+    component: () => import("../views/DetailView"),
+  },
+];
 
 const router = createRouter({
   history: createWebHistory(),
-  routes
-})
+  routes,
+});
 
-export default router
+export default router;
