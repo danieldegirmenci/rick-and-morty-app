@@ -105,8 +105,8 @@ export default {
   font-weight: bold;
   position: absolute;
   background-color: #64c09b;
-  min-width: 105px;
-  width: 15%;
+    min-width: 120px;
+   width: 15%;
   height: 50px;
   border-radius: 10px;
   color: #001736;
