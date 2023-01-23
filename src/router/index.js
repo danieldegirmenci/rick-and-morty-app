@@ -7,7 +7,7 @@ const routes = [
     component: () => import("../views/CharacterView"),
   },
   {
-    path: "/detail/:characterID",
+    path: "/:characterID",
     name: "detail",
     component: () => import("../views/DetailView"),
   },
